@@ -1,6 +1,6 @@
 from datetime import date 
 hj = date.today()
-avaliacao = 15
+avaliacao = 30
 if hj.day == avaliacao:
     print("Terminou o prazo de avaliação")
 else:
